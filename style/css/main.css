@@ -1,0 +1,276 @@
+/* ====== start navbar ======  */
+.navbar {
+  background-color: #37517e;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  color: white;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  color: #47b2e4;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.dropdown-menu a {
+  color: black;
+}
+.btn {
+  width: 120px;
+  margin: 0 20px;
+  outline: 2px solid #47b2e4;
+  border-radius: 50px;
+}
+.btn:hover {
+  background-color: #47b2e4;
+}
+/* ====== end navbar ======  */
+
+/* ====== start hero section ======  */
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+#hero {
+  background-color: #37517e;
+}
+#hero h1 {
+  margin: 0 0 10px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#hero h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.6);
+}
+a.btn-get-started.scrollto {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+  text-decoration: none;
+}
+#hero .btn-watch-video {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  line-height: 1;
+}
+#hero .container a {
+  text-decoration: none;
+}
+/* ====== end hero section ======  */
+
+/* ====== start clint section ======= */
+.clients {
+  padding: 12px 0;
+  text-align: center;
+}
+.section-bg {
+  background-color: #f3f5fa;
+}
+.clients img {
+  filter: grayscale(100);
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+.clients img:hover {
+  filter: none;
+}
+/* ====== end clint section ======= */
+
+/* ========= start about section ======== */
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* ========= end about section ======== */
+
+/* ======== start why section ======== */
+.why-us img {
+  width: 40%;
+}
+.why-us .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+}
+.why-us .content p {
+  font-size: 15px;
+  color: #848484;
+}
+/* ======== end why section ======== */
+
+/* ======= start skills section ======= */
+.skills .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+.skills .progress-bar-wrap {
+  background: #e8edf5;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+/* ======= end skills section ======= */
+
+/* start services section  */
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.services .icon-box {
+  min-height: 260px;
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+  padding: 50px 30px;
+  background: #fff;
+  transition: all ease-in-out 0.5s;
+}
+.services .icon-box:hover{
+  transform: translateY(-15px);
+}
+.services a{
+  text-decoration: none;
+  color: #37517e;
+}
+.services a:hover{
+  color: #47b2e4;
+}
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+/* end services section  */
+/* ======= start cta section ======== */
+.cta {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../../images/cta-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+.cta h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.cta .btn{
+  width: 70%;
+  margin-top: 40px;
+  outline-color: #fff;
+}
+/* ======= end cta section ======== */
+/* ======= start portfolio section ======== */
+.portfolio a{
+  padding:5px 15px;
+  margin: 5px;
+  text-decoration: none;
+  color: #37517e;
+  text-transform: capitalize;
+  border-radius: 20px;
+}
+.portfolio a:hover{
+  background-color: #47b2e4;
+  color: #fff;
+}
+.portfolio .img{
+  width: 15%;
+}
+/* ======= end portfolio section ======== */
+
+@media (max-width: 768px) {
+  #hero .hero-img {
+    width: 70%;
+    margin: auto;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .why-us img {
+    width: 90%;
+  }
+}
