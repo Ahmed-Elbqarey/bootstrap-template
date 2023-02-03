@@ -19,50 +19,54 @@
 </head>
 
 <body>
-  <!-- ======= start nav bar ======= -->
-  <nav class="navbar navbar-expand-lg bg-tertiary">
+  <!-- ======= start header bar ======= -->
+  <header>
     <div class="container">
-      <a class="navbar-brand col-3" href="#">ARSHA</a>
-      <button class="navbar-toggler bg-light" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              DropDown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <button type="button" class="btn text-light">Get Started</button>
-      </div>
+      <nav class="navbar navbar-expand-lg bg-tertiary">
+        <a class="navbar-brand col-3" href="#">ARSHA</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DropDown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="btn text-light">Get Started</button>
+        </div>
+      </nav>
     </div>
-  </nav>
-  <!-- ======= end nav bar ======= -->
+  </header>
+  <!-- ======= end header bar ======= -->
 
   <!-- ========== start hero section ======== -->
   <section id="hero" class="d-flex align-items-center">
@@ -378,7 +382,7 @@
       </div>
     </div>
 
-    <div class="container justify-content-center">
+    <div class="container col-4 justify-content-center">
       <div class="links">
         <a href="">all</a>
         <a href="">app</a>
@@ -388,6 +392,8 @@
     </div>
 
     <div class="container">
+
+      <div class="row">
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <div class="portfolio-img"><img src="images/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
         <div class="portfolio-info">
@@ -416,9 +422,10 @@
           <a href="images/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
             class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
         </div>
-      </div>
-    </div>
-    <div class="container">
+      </div></div>
+    
+
+    <div class="row">
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <div class="portfolio-img"><img src="images/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
         <div class="portfolio-info">
@@ -449,7 +456,8 @@
         </div>
       </div>
     </div>
-    <div class="container">
+
+    <div class="row">
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <div class="portfolio-img"><img src="images/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
         <div class="portfolio-info">
@@ -559,7 +567,7 @@
       </div>
     </div>
 
-      <div class="container">
+    <div class="container">
       <div class="row">
 
         <div class="col-lg-4 mt-4 mt-lg-0">
@@ -570,8 +578,8 @@
               <li> Quam adipiscing vitae proin</li>
               <li> Nec feugiat nisl pretium</li>
               <li> Nulla at volutpat diam uteera</li>
-              <li ><span>Pharetra massa massa ultricies</span></li>
-              <li ><span>Massa ultricies mi quis hendrerit</span></li>
+              <li><span>Pharetra massa massa ultricies</span></li>
+              <li><span>Massa ultricies mi quis hendrerit</span></li>
             </ul> <a href="#" class="btn">Get Started</a>
           </div>
         </div>
@@ -609,6 +617,246 @@
   </section>
   <!-- ======== end pricing section ========= -->
 
+  <!-- ======== start faq section ========== -->
+  <section id="faq" class="faq section-bg">
+
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #4
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #5
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ======== end faq section ========== -->
+
+  <!-- ====== start contact section ======== -->
+  <section id="contact" class="contact">
+
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="info">
+            <div class="address">
+              <h4>Location:</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+            <div class="email">
+              <h4>Email:</h4>
+              <p>info@example.com</p>
+            </div>
+            <div class="phone">
+              <h4>Call:</h4>
+              <p>+1 5589 55488 55s</p>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <form action="" method="post" class="email-form">
+            <div class="row">
+              <div class="form-group col-md-6"> <label for="name">Your Name</label> <input type="text" name="name"
+                  class="form-control" id="name" required=""></div>
+              <div class="form-group col-md-6"> <label for="name">Your Email</label> <input type="email"
+                  class="form-control" name="email" id="email" required=""></div>
+            </div>
+
+            <div class="form-group"> <label for="name">Subject</label> <input type="text" class="form-control"
+                name="subject" id="subject" required="">
+            </div>
+            <div class="form-group"> <label for="name">Message</label><textarea class="form-control" name="message"
+                rows="10" required=""></textarea>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ====== end contact section ======== -->
+
+  <!-- =============== start footer ============ -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form  action="" method="post"> <input type="email" name="email">
+              <button>subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Arsha</h3>
+            <p> A108 Adam Street <br> New York, NY 535022<br> United States <br><br> <strong>Phone:</strong> +1 5589
+              55488 55<br> <strong>Email:</strong> info@example.com<br></p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3"> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#"
+                class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i
+                  class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> <a
+                href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer-bottom">
+        <h2>made by <strong>"ahmed elbqarey"</strong></h2>
+      </div>
+    </div>
+  </footer>
+  <!-- =============== end footer ============== -->
 
 </body>
 
