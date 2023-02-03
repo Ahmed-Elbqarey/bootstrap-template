@@ -283,9 +283,44 @@ a.btn-get-started.scrollto {
   margin: 10px 0;
   font-size: 14px;
 }
-
 /* ========= end team section ========== */
-
+/* ======== start pricing section ========== */
+.pricing .box {
+  height: 100%;
+  padding:40px;
+  box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
+  background: #fff;
+  border-radius: 5px;
+  line-height: 1;
+}
+.pricing .featured {
+  border-top:4px solid #47b2e4;
+}
+.pricing h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #37517e;
+}
+.pricing h4 sup {
+  font-size: 25px;
+}
+.pricing h4 {
+  font-size: 48px;
+  color: #37517e;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.pricing h4 span {
+  color: #47b2e4;
+  font-size: 18px;
+  display: block;
+}
+.pricing ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+/* ======== end pricing section ========== */
 
 @media (max-width: 768px) {
   #hero .hero-img {
@@ -304,4 +339,8 @@ a.btn-get-started.scrollto {
   .why-us img {
     width: 90%;
   }
+  .pricing .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+}
 }
