@@ -194,7 +194,7 @@ a.btn-get-started.scrollto {
 }
 /* ======= end skills section ======= */
 
-/* start services section  */
+/* ======= start services section ======== */
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -251,10 +251,41 @@ a.btn-get-started.scrollto {
   background-color: #47b2e4;
   color: #fff;
 }
-.portfolio .img{
-  width: 15%;
+.portfolio .container img{
+  border-radius: 5px;
+  margin-top: 10px;
 }
 /* ======= end portfolio section ======== */
+/* ========= start team section ========== */
+.mt-4 {
+  margin-top: 1.5rem!important;
+}
+.team .member{
+  background-color: #fff;
+  padding: 30px;
+}
+.team .member img{
+  width: 40%;
+  border-radius: 50%;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #37517e;
+}
+.team .member span {
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.team .member p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* ========= end team section ========== */
+
 
 @media (max-width: 768px) {
   #hero .hero-img {
